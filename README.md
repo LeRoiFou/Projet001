@@ -43,6 +43,6 @@ Rename-Item requirements-utf8.txt requirements.txt
 - Créer le fichier .dockerignore
 - Ouvrir l'application Docker Desktop
 - Dans le terminal, saisir l'instruction suivante pour construire (build) l'image python :
-  `docker build --no-cache -t nomImage .` (nomImage : nom de l'image donné à l'application -> ici c'est <font color="yellow">dash-analyse</font>)
-- Toujours dans le terminal, saisir ensuite l'instruction suivante pour lancer l'image dockerisée : `docker run -p 8050:8050 nomImage`
+  `docker build --no-cache -t nomImage .` (nomImage : nom de l'image donné à l'application -> ici c'est <font color="yellow">cloudprojet001-AAAAMMJJ</font>)
+- Toujours dans le terminal, saisir ensuite l'instruction suivante pour lancer l'image dockerisée : `docker run -p 8000:8000 nomImage`
 - Tester l'application en saisissant en URL d'une page web : `http://localhost:8050`
