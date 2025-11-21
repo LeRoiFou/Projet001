@@ -1,0 +1,45 @@
+# ================================================================
+# This file prevents the Docker image size from becoming too large and 
+# sensitive/unnecessary files from being deployed.
+# ================================================================
+
+# === Python cache files ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+
+# === Virtual environments ===
+venv/
+.env
+.env.*
+
+# === System files & IDE ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# === Git ===
+.git/
+.gitignore
+
+# === Docs and temporary files ===
+*.md
+*.zip
+*.tar
+*.bak
+
+# === Temporary data ===
+*.db
+*.sqlite
+*.xls
+*.xlsx
+*.csv
+
+# === Other personal files/OS ===
+*.swp
+*~

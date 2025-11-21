@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 001</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <h1>Test projet n° 1</h1>
+
+    <!-- Form to send data to the Python file -->
+    <form action="/" method="post">
+        <label for="first_name">Entrer votre prénom : </label>
+        <input type="text" name="first_name" required>
+        <br>
+        <button type="submit">Valider</button>
+    </form>
+
+    <!-- Retrieving the transformed value in the Python file -->
+    {%if result%}
+    <p>{{result}}</p>
+    {%endif%}
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

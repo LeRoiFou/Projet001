@@ -1,0 +1,30 @@
+body {
+  background-color: teal;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  border-radius: 10px;
+  margin: 20px;
+  padding: 3px;
+  width: 200px;
+  text-align: center;
+}
+
+button {
+  border-radius: 10px;
+  padding: 3px;
+  width: 100px;
+  background-color: white;
+}
+
+p {
+  text-transform: capitalize;
+  font-style: italic;
+  font-size: large;
+  color: rgb(237, 237, 180);
+}
